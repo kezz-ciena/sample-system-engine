@@ -1,6 +1,7 @@
-/* jshint node: true */
-'use strict';
+/*jshint node:true*/
+var EngineAddon = require('ember-engines/lib/engine-addon');
 
-module.exports = {
-  name: 'ciena-system-engine'
-};
+module.exports = EngineAddon.extend({
+  name: 'sample-system-engine',
+  lazyLoading: false
+});

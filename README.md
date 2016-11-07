@@ -1,11 +1,11 @@
-# Ciena-system-engine
+# Sample-system-engine
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ciena-system-engine`
+* `cd sample-system-engine`
 * `npm install`
 * `bower install`
 
