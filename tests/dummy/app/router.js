@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function () {
   this.mount('sample-system-engine',{
     as: 'system'
-  })
+  }),
   this.nav('demo', {
     path: '/'
   }, function () {
@@ -19,12 +19,11 @@ Router.map(function () {
       this.column('Column 1', {
         color: '#009eef'
       }, function () {
-    this.link('metrics', {
-      url: 'system/metrics'
-    })
-  })
-})
-})
-
-})
-export default Router
+            this.link('metrics', {
+            url: 'system/metrics'
+            });
+          });
+        });
+      });
+    });
+export default Router;

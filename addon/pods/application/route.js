@@ -1,8 +1,7 @@
-import Ember from 'ember'
+import Ember from 'ember';
 const {
   Route
-} = Ember
+} = Ember;
 
 export default Route.extend({
-
-})
+});
