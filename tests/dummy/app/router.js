@@ -19,10 +19,6 @@ Router.map(function () {
       this.column('Column 1', {
         color: '#009eef'
       }, function () {
-
-    this.link('logging', {
-      url: 'system/logging'
-    })
     this.link('metrics', {
       url: 'system/metrics'
     })
