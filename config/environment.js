@@ -2,8 +2,8 @@
 
 module.exports = function (environment) {
   var ENV = {
-    modulePrefix: 'ciena-uac-engine',
-    podModulePrefix: 'ciena-uac-engine/pods',
+    modulePrefix: 'sample-system-engine',
+    podModulePrefix: 'sample-system-engine/pods',
     environment: environment
   }
   return ENV

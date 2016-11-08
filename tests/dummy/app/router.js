@@ -22,6 +22,11 @@ Router.map(function () {
             this.link('metrics', {
             url: 'system/metrics'
             });
+            this.link('externaltest', {
+            url: 'system/externaltest'
+            });
+
+
           });
         });
       });

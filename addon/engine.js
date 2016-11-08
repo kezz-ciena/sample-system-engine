@@ -8,7 +8,12 @@ const { modulePrefix, podModulePrefix } = config;
 const Eng = Engine.extend({
   modulePrefix,
   podModulePrefix,
-  Resolver
+  Resolver,
+
+dependencies: {
+   externalRoutes: [
+     'google'   ]
+ }
 });
 
 loadInitializers(Eng, modulePrefix);
